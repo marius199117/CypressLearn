@@ -1,0 +1,76 @@
+[
+  {
+    "description": "    Application Regression",
+    "elements": [
+      {
+        "description": "",
+        "id": "end-to-end-ecommerce-validation;ecommerce-products-delivery",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Ecommerce products delivery",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I open Ecommerce page",
+            "result": {
+              "duration": 2827000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 8,
+            "name": "I add items to Cart",
+            "result": {
+              "duration": 5452000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 9,
+            "name": "I Validate the total prices",
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 10,
+            "name": "select the country, submit and verify Thankyou",
+            "result": {
+              "duration": 5723000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario",
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "id": "end-to-end-ecommerce-validation",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "End to End Ecommerce validation",
+    "uri": "cypress\\integration\\examples\\BDD\\ecommerce.feature"
+  }
+]
